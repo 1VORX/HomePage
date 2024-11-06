@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+    background-color: #CDCDCD;
+    color: #666666;
+    text-shadow: 0px 2px #9A9A9A;
+    font-size: 22px;
+    font-family: font;
+    word-spacing: 4px;
+
+}
+
+a:link, a:visited {
+    color: #666666;
+    padding: 4px 8px;
+    margin: 16px 8px;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition: all .2s linear;
+  }
+  
+  a:hover, a:active {
+    bottom: 2px;
+    box-shadow: 4px 4px 8px #9A9A9A, -2px -2px 4px rgb(228, 228, 228);
+    font-size: 24px;
+  }
+  
+  @font-face {
+    font-family: font;
+    src: url(font.ttf);
+  }
